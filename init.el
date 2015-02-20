@@ -69,16 +69,16 @@
 
 (require 'init-compile)
 (require 'init-crontab)
-(require 'init-textile)
+;;~~~(require 'init-textile)
 (require 'init-markdown)
 (require 'init-csv)
-(require 'init-erlang)
-(require 'init-javascript)
-(require 'init-php)
+;;~~~(require 'init-erlang)
+;;~~~(require 'init-javascript)
+;;~~~(require 'init-php)
 (require 'init-org)
-(require 'init-nxml)
-(require 'init-html)
-(require 'init-css)
+;;~~~(require 'init-nxml)
+;;~~~(require 'init-html)
+;;~~~(require 'init-css)
 (require 'init-haml)
 (require 'init-python-mode)
 (require 'init-haskell)
@@ -114,9 +114,9 @@
 ;;----------------------------------------------------------------------------
 ;; Allow access from emacsclient
 ;;----------------------------------------------------------------------------
-(require 'server)
-(unless (server-running-p)
-  (server-start))
+;;~~~(require 'server)
+;;~~~(unless (server-running-p)
+;;~~~  (server-start))
 
 
 ;;----------------------------------------------------------------------------
