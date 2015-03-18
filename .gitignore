@@ -37,3 +37,4 @@ site-lisp/package/
 /.sx/
 
 recentf
+/org-clock-save.el
